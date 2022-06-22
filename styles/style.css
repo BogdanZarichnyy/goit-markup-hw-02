@@ -12,6 +12,16 @@ html, body {
     -moz-box-sizing: inherit;
 }
 
+a {
+    text-decoration: none;
+    /*cursor: pointer;*/
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 .body__general {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -30,17 +40,7 @@ html, body {
     margin: 0 auto;
 }
 
-a {
-    text-decoration: none;
-    /*cursor: pointer;*/
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-/*Шапка*/
+/*Хедер*/
 .header__content {
     background: #FFFFFF;
     border-bottom: 1px solid #ECECEC;
@@ -142,7 +142,16 @@ ul {
     background: #FFFFFF;
 }
 
-/*Замовлення*/
+.main__content__portfolio {
+    background: #FFFFFF;
+    padding: 94px 0;
+}
+
+.main__filter__box {
+    margin-bottom: 34px;
+}
+
+/*Заказы*/
 .main__content {
     background: #2F303A;
 }
@@ -214,11 +223,13 @@ ul {
         -4px -4px 4px rgba(0, 0, 0, 0.15);
 }
 
-/*Про нас*/
+/*О нас*/
 .main__about {
     background: #FFFFFF;
     padding: 94px 0;
 }
+
+/*О нас в деталях*/
 
 .main__about__us {
     display: flex;
@@ -285,7 +296,7 @@ ul {
     text-align: justify;
 }
 
-/*Чим займаємося*/
+/*Чем мы занимаемся*/
 .main__about__title__job {
     margin: 0 0 50px;
     font-style: normal;
@@ -366,7 +377,118 @@ ul {
     letter-spacing: 0.03em;
     color: #757575;
 }
-/*Підвал*/
+
+/*Фильтр*/
+.main__filter__list {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+    gap: 8px;
+}
+
+.main__filter__list__item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.main__filter__button {
+    padding: 6px 22px;
+    background:
+            linear-gradient(
+                    #F5F4FA,
+                    #a9a9ad);
+    border: 0;
+    border-radius: 4px;
+    font-family: inherit;
+    font-style: normal;
+    /*font-weight: 500;*/
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+
+.main__filter__button:focus {
+    background: #188ce8;
+    color: #FFFFFF;
+}
+
+.main__filter__button:active {
+    background:
+            linear-gradient(
+                    #2196F3,
+                    #104970);
+    box-shadow:
+            0 4px 4px rgba(0, 0, 0, 0.15),
+            inset 4px 4px 4px rgba(0, 0, 0, 0.15),
+            inset -4px 4px 4px rgba(0, 0, 0, 0.15),
+            inset 4px -4px 4px rgba(0, 0, 0, 0.15),
+            inset -4px -4px 4px rgba(0, 0, 0, 0.15);
+    text-shadow:
+            4px 4px 4px rgba(0, 0, 0, 0.15),
+            -4px 4px 4px rgba(0, 0, 0, 0.15),
+            4px -4px 4px rgba(0, 0, 0, 0.15),
+            -4px -4px 4px rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+}
+
+/*Постеры*/
+.main__poster__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: 0;
+}
+
+.main__poster__list__item {
+    max-width: 370px;
+    background: #FFFFFF;
+    /*border: 1px solid #EEEEEE;*/
+    border-bottom: 1px solid #EEEEEE;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.main__poster__list__item:hover {
+    transform: scale(1.1);
+}
+
+.main__poster__list__item__image {
+    display: block;
+    width: 100%;
+}
+
+.main__poster__list__item__text {
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    padding: 20px 23px 19px;
+}
+
+.main__poster__list__item__name {
+    margin: 0 0 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.main__poster__list__item__category {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*Футер*/
 .footer__content {
     background: #2F303A;
 }
