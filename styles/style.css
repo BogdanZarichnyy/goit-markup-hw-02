@@ -155,7 +155,7 @@ ul {
 
 .header__email,
 .header__telephone {
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 
 .header__email:focus,
