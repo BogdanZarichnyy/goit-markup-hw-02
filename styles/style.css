@@ -199,8 +199,8 @@ ul {
 .order__button {
     padding: 10px 32px;
     background:
-        linear-gradient
-            (var(--general-color),
+        linear-gradient(
+            var(--general-color),
             var(--gradient-color-1));
     box-shadow:
         0 4px 4px var(--main-shadow-button);
