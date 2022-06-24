@@ -459,24 +459,15 @@ ul {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     cursor: pointer;
-    transition: all 0.2s;
 }
 
-.cheked
-/*.filter-button:focus*/
-    {
-    /*outline: none;*/
-    background: var(--focus-color);
-    color: var(--content-color);
-}
-
+.cheked,
 .filter-button:focus {
-    outline: none;
-    background: var(--focus-color);
-    color: var(--content-color);
+    /*outline: none;*/
     box-shadow:
         0 4px 4px rgba(0, 0, 0, 0.15);
-    transform: scale(1.1);
+    background: var(--focus-color);
+    color: var(--content-color);
 }
 
 .filter-button:hover {
@@ -503,7 +494,6 @@ ul {
         4px -4px 4px var(--main-shadow-button),
         -4px -4px 4px var(--main-shadow-button);
     color: var(--content-color);
-    transform: scale(1);
 }
 
 /*Постери*/
