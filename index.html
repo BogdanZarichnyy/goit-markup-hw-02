@@ -1,222 +1,242 @@
 <!doctype html>
-<html lang="ru">
+<html lang="uk-UA">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Главная</title>
-        <!--Импорт шрифтов в HTML5-->
+        <title>Головна</title>
+        <!--Імпорт шрифтів в HTML5-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-              rel="stylesheet">
-        <!--Импорт изображения на вкладку сайта-->
-        <link rel="icon" href="images/goit.jpg" type="image/jpg">
-        <!--Подключения стилей-->
-        <link rel="stylesheet" href="styles/style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet">
+        <!--Імпорт зображення на шапку сайту-->
+        <link rel="icon" href="./images/goit.jpg" type="image/jpg">
+        <!--Підключення стилів-->
+        <link rel="stylesheet" href="./styles/style.css" type="text/css">
     </head>
+    <!-- ДЗ №2 goit-markup-hw-02 -->
 
-    <body class="body__general">
-    <!--http://goit-markup-hw-02/-->
+    <body class="body-general">
 
         <!--Container - width 1600px-->
         <div class="container">
-        
+
             <!--Хедер-->
-            <header class="header__content">
+            <header class="header-content">
                 <!--Container - width 1200px-->
-                <div class="container__content">
-                    <div class="header__box">
-        
-                        <nav class="header__navigation">
-        
-                            <a class="header__navigation__logo" href="./">
-                                <span class="header__navigation__logo__prefix">Web</span>Studio</a>
-        
-                            <ul class="header__navigation__list">
-                                <li class="header__navigation__list__item">
-                                    <a class="header__navigation__list__item__link current" href="./">Студия</a>
+                <div class="container-content">
+                    <!--Обгортка для хедеру-->
+                    <div class="header-box">
+
+                        <!--Блок навігації-->
+                        <nav class="header-navigation">
+                            <!--Логотип-->
+                            <a class="header-logo" href="./"><span class="header-logo-prefix">Web</span>Studio</a>
+
+                            <!--Навігація-->
+                            <ul class="navigation-list">
+                                <li class="navigation-item">
+                                    <a class="navigation-link current" href="./">Студія</a>
                                 </li>
-                                <li class="header__navigation__list__item">
-                                    <a class="header__navigation__list__item__link" href="./portfolio.html">Портфолио</a>
+                                <li class="navigation-item">
+                                    <a class="navigation-link" href="./portfolio.html">Портфоліо</a>
                                 </li>
-                                <li class="header__navigation__list__item">
-                                    <a class="header__navigation__list__item__link" href="#">Контакты</a>
+                                <li class="navigation-item">
+                                    <a class="navigation-link" href="#">Контакти</a>
                                 </li>
                             </ul>
-        
+
                         </nav>
-        
-                        <div class="header__contacts">
-        
-                            <a class="header__email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        
-                            <a class="header__telephone" href="tel:380961111111">+38 096 111 11 11</a>
-        
-                        </div>
-        
+
+                        <!--Контакти-->
+                        <ul class="header-contacts">
+                            <li class="contacts-item">
+                                <a class="email-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            </li>
+                            <li class="contacts-item">
+                                <a class="telephone-link" href="tel:380961111111">+38 096 111 11 11</a>
+                            </li>
+                        </ul>
+
                     </div>
                 </div>
             </header>
-        
-            <!--Заказы-->
-            <section class="section__order">
-                <!--Container - width 1200px-->
-                <div class="container__content">
-        
-                    <div class="order__content">
-                        <h1 class="order__title">Эффективные решения для вашего бизнеса</h1>
-                        <button class="order__button" type="button">Заказать услугу</button>
-                    </div>
-        
-                </div>
-            </section>
-        
+
             <!--Контент-->
-            <main class="main__content section">
-                <!--Container - width 1200px-->
-                <div class="container__content">
-        
-                    <!--О нас-->
-                    <div class="main__about__us">
-        
-                        <h2 class="main__title"></h2>
-        
-                        <ul class="box__list">
-                            <li class="main__about__list__item">
-                                <h3 class="main__about__list__item__title">Внимание к деталям</h3>
-                                <p class="main__about__list__item__text">
-                                    Идейные соображения, а также начало повседневной работы по формированию позиции.
-                                </p>
-                            </li>
-                            <li class="main__about__list__item">
-                                <h3 class="main__about__list__item__title">Пунктуальность</h3>
-                                <p class="main__about__list__item__text">
-                                    Задача организации, особенно поддержка и своевременное обучение кадров на месте.
-                                </p>
-                            </li>
-                            <li class="main__about__list__item">
-                                <h3 class="main__about__list__item__title">Планирование</h3>
-                                <p class="main__about__list__item__text">
-                                    Равнозначным образом консультация в значительной степени обусловлена широким активом.
-                                </p>
-                            </li>
-                            <li class="main__about__list__item">
-                                <h3 class="main__about__list__item__title">Современные технологии</h3>
-                                <p class="main__about__list__item__text">
-                                    Значимость этих проблем настолько очевидна, что и реализация плановых заданий.
-                                </p>
-                            </li>
-                        </ul>
-        
-                        <!--Чем мы занимаемся-->
-                        <div class="main__about__box">
-        
-                            <h2 class="main__about__title__job">Чем мы занимаемся</h2>
-        
-                            <ul class="box__list">
-                                <li class="main__about__list__item__job">
-                                    <img class="box__image" src="images/image1.jpg"
-                                        alt="images/image1.jpg - Печать на клавиатуре" title="Воплощаем ваши мечты">
+            <main class="main-content">
+
+                <!--Замовлення-->
+                <section class="section-order">
+                    <!--Container - width 1200px-->
+                    <div class="container-content">
+
+                        <!--Обгортка для секції замовлень-->
+                        <div class="order-content">
+
+                            <h1 class="order-title">Ефективні рішеня для вашого бізнесу</h1>
+                            <button class="order-button" type="button">Замовити послугу</button>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!--Про нас-->
+                <section class="section">
+                    <!--Container - width 1200px-->
+                    <div class="container-content">
+                        <!--Обгортка для секції Про нас-->
+                        <div class="about-us-box">
+
+                            <!--Заголовок для секції-->
+                            <h2 class="about-us-title">Цей заголовок буде ховатися</h2>
+
+                            <!--Наші цілі-->
+                            <ul class="about-us-list">
+                                <li class="about-item">
+                                    <h3 class="about-item-title">Прискіпливість до деталей</h3>
+                                    <p class="about-item-text">
+                                        Ідейні міркування, а також початок повсякденної роботи по формуванню напрямів.
+                                    </p>
                                 </li>
-                                <li class="main__about__list__item__job">
-                                    <img class="box__image" src="images/image2.jpg"
-                                        alt="images/image2.jpg - Использование смартфона"
-                                        title="Поддерживаем вас на вашем пути">
+                                <li class="about-item">
+                                    <h3 class="about-item-title">Пунктуальність</h3>
+                                    <p class="about-item-text">
+                                        Задачі организації полягають в підтримці, а особливо у вчасному навчанні кадрів на
+                                        місці.
+                                    </p>
                                 </li>
-                                <li class="main__about__list__item__job">
-                                    <img class="box__image" src="images/image3.jpg"
-                                        alt="images/image3.jpg - Использование планшета"
-                                        title="Формируем стратегию вашего успеха">
+                                <li class="about-item">
+                                    <h3 class="about-item-title">Планування</h3>
+                                    <p class="about-item-text">
+                                        Рівнозначним образом, консультація в значній степені обумовлена широким активом
+                                        компанії.
+                                    </p>
+                                </li>
+                                <li class="about-item">
+                                    <h3 class="about-item-title">Сучасні технології</h3>
+                                    <p class="about-item-text">
+                                        Значимість цих проблем настільки очевидна, як і реалізація плановых завдань.
+                                    </p>
                                 </li>
                             </ul>
-        
+
                         </div>
-        
                     </div>
-        
-                </div>
+                </section>
+
+                <!--Чим ми займаємося-->
+                <section class="section-our-work">
+                    <!--Container - width 1200px-->
+                    <div class="container-content">
+                        <!--Обгортка для секції Чим ми займаємося-->
+                        <div class="our-work-box">
+
+                            <h2 class="our-work-title">Чим ми займаємося</h2>
+
+                            <!--Наше покликання-->
+                            <ul class="about-us-list">
+                                <li class="work-item">
+                                    <img class="box-image" src="./images/image1.jpg" alt="Друк коду на клавіатурі"
+                                        title="Втілюємо ваші мрії">
+                                </li>
+                                <li class="work-item">
+                                    <img class="box-image" src="./images/image2.jpg"
+                                        alt="Звірка дизайну сторінки на смартфоні" title="Підтримуємо вас на вашому шляху">
+                                </li>
+                                <li class="work-item">
+                                    <img class="box-image" src="./images/image3.jpg"
+                                        alt="Вибір палітри кольорів на планшеті" title="Формуємо стратегію вашого успіху">
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!--Наша команда-->
+                <section class="section-team">
+                    <!--Container - width 1200px-->
+                    <div class="container-content section">
+                        <!--Обгортка для секції Наша команда-->
+                        <div class="team-box">
+
+                            <h2 class="team-title">Наша команда</h2>
+
+                            <!--Кадровий апарат-->
+                            <ul class="about-us-list">
+                                <li class="team-item">
+                                    <img class="box-image" src="./images/photo1.jpg" alt="Фото Ігор Дем'яненко"
+                                        title="Ігор Дем'яненко">
+                                    <h3 class="team-item-name">Ігор Дем'яненко</h3>
+                                    <p class="team-item-title">Product Designer</p>
+                                </li>
+                                <li class="team-item">
+                                    <img class="box-image" src="./images/photo2.jpg" alt="Фото Ольга Репіна"
+                                        title="Ольга Репіна">
+                                    <h3 class="team-item-name">Ольга Репіна</h3>
+                                    <p class="team-item-title">Frontend Developer</p>
+                                </li>
+                                <li class="team-item">
+                                    <img class="box-image" src="./images/photo3.jpg" alt="Фото Микола Тарасов"
+                                        title="Микола Тарасов">
+                                    <h3 class="team-item-name">Микола Тарасов</h3>
+                                    <p class="team-item-title">Marketing</p>
+                                </li>
+                                <li class="team-item">
+                                    <img class="box-image" src="./images/photo4.jpg" alt="Фото Михайло Єрмаков"
+                                        title="Михайло Єрмаков">
+                                    <h3 class="team-item-name">Михайло Єрмаков</h3>
+                                    <p class="team-item-title">UI Designer</p>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </section>
+
             </main>
-        
-            <!--Наша команда-->
-            <section class="team__content section">
-                <!--Container - width 1200px-->
-                <div class="container__content">
-        
-                    <div class="team__box">
-        
-                        <h2 class="team__title">Наша команда</h2>
-        
-                        <ul class="box__list">
-                            <li class="team__list__item">
-                                <img class="box__image" src="images/photo1.jpg" alt="images/photo1.jpg - Фото Игорь Демьяненко"
-                                    title="Игорь Демьяненко">
-                                <h3 class="team__list__item__name">Игорь Демьяненко</h3>
-                                <p class="team__list__item__job">Product Designer</p>
-                            </li>
-                            <li class="team__list__item">
-                                <img class="box__image" src="images/photo2.jpg" alt="images/photo2.jpg - Фото Ольга Репина"
-                                    title="Ольга Репина">
-                                <h3 class="team__list__item__name">Ольга Репина</h3>
-                                <p class="team__list__item__job">Frontend Developer</p>
-                            </li>
-                            <li class="team__list__item">
-                                <img class="box__image" src="images/photo3.jpg" alt="images/photo3.jpg - Фото Николай Тарасов"
-                                    title="Николай Тарасов">
-                                <h3 class="team__list__item__name">Николай Тарасов</h3>
-                                <p class="team__list__item__job">Marketing</p>
-                            </li>
-                            <li class="team__list__item">
-                                <img class="box__image" src="images/photo4.jpg" alt="images/photo4.jpg - Фото Михаил Ермаков"
-                                    title="Михаил Ермаков">
-                                <h3 class="team__list__item__name">Михаил Ермаков</h3>
-                                <p class="team__list__item__job">UI Designer</p>
-                            </li>
-                        </ul>
-        
-                    </div>
-        
-                </div>
-            </section>
-        
+
             <!--Футер-->
-            <footer class="footer__content">
+            <footer class="footer-content">
                 <!--Container - width 1200px-->
-                <div class="container__content">
-        
-                    <div class="footer__box">
-        
-                        <div class="footer__contact">
-        
-                            <a class="header__navigation__logo footer__logo" href="./">
-                                <span class="header__navigation__logo__prefix">Web</span>Studio</a>
-        
-                            <address class="footer__address">
-                                <ul class="footer__contact__list">
-                                    <li class="footer__contact__list__item">
-                                        <a class="footer__address__link" href="https://bit.ly/3pXMvUd" target="_blank"
-                                            rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
+                <div class="container-content">
+                    <!--Обгортка для футера-->
+                    <div class="footer-box">
+
+                        <!--Блок для логотипу та адреси футера-->
+                        <div class="footer-contact">
+
+                            <!--Логотип футера-->
+                            <a class="header-logo footer-logo" href="./">
+                                <span class="header-logo-prefix">Web</span>Studio</a>
+
+                            <!--Адреса футера-->
+                            <address class="footer-address">
+                                <ul class="footer-contact-list">
+                                    <li class="footer-contact-item">
+                                        <a class="footer-address-link" href="https://bit.ly/3pXMvUd" target="_blank"
+                                            rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a>
                                     </li>
-                                    <li class="footer__contact__list__item">
-                                        <a class="header__email footer__email"
+                                    <li class="footer-contact-item">
+                                        <a class="email-link footer-email"
                                             href="mailto:info@devstudio.com">info@devstudio.com</a>
                                     </li>
-                                    <li class="footer__contact__list__item">
-                                        <a class="header__telephone footer__telephone" href="tel:380961111111">+38 096 111 11
+                                    <li class="footer-contact-item">
+                                        <a class="telephone-link footer-telephone" href="tel:380961111111">+38 096 111 11
                                             11</a>
                                     </li>
                                 </ul>
                             </address>
-        
+
                         </div>
-        
+
                     </div>
                 </div>
-        
             </footer>
-        
+
         </div>
-        
+
     </body>
-        
+
 </html>
